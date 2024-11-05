@@ -1,0 +1,350 @@
+.forgot_pass {
+  text-align: right;
+  font-weight: 600;
+}
+
+.forgot_pass span {
+  cursor: pointer;
+  color: #681d1d;
+}
+.forgot_pass span:hover {
+  text-decoration: underline;
+}
+.forgot_password input {
+  width: 100%;
+  height: 38px;
+  margin-bottom: 10px;
+  padding: 0 5px;
+  min-height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.new_passscreen {
+  height: 100%;
+  margin-bottom: 30px;
+}
+.forgot_password {
+  width: 100%;
+}
+.new_passscreen .changeEmail button {
+  background: transparent;
+  color: #681d1d;
+  padding: 0;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.new_passscreen .changeEmail button:hover {
+  text-decoration: underline;
+}
+.changeEmail p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #777;
+  font-weight: 600;
+}
+.forgot_password button {
+  background: #681d1d;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.content_botom.d_flex,
+.content_botom.d_flex .img_text {
+  align-items: center;
+  display: flex;
+}
+.content_botom.d_flex {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.rejected_city {
+  margin-top: 22px;
+  text-align: center;
+}
+
+.rejected_city .content_botom.d_flex {
+  justify-content: space-between;
+  padding: 0 15px;
+  width: 90%;
+}
+
+.content_botom.d_flex .img_text span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.rejected_city .content_botom.d_flex .img_text {
+  border: 1px solid #681d1d;
+  border-radius: 5px;
+  color: #681d1d;
+  cursor: pointer;
+  padding: 3px 8px;
+}
+
+.subPlans {
+  box-shadow: 0px 0px 7px 3px #00000026;
+  border-radius: 4px;
+  padding: 10px 15px 30px;
+  margin: 24px 5px;
+  text-align: left;
+}
+
+.subPlansHead ul {
+  list-style: none;
+  padding: 0;
+}
+
+.subPlansHead ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.subPlansHead h2 {
+  margin: 10px 0;
+}
+
+.subPlansHead p {
+  margin: 0 0;
+}
+.logout_container {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.logout_container.form_group {
+  margin: 0;
+}
+.logout_container.form_group button.submin_btns {
+  background: #681d1d;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 0;
+  padding: 10px 35px;
+}
+.height_same {
+  height: 23px;
+}
+
+.signUp {
+  padding: 20px 40px 50px;
+  width: 100%;
+  max-width: 60%;
+  margin: 0 auto;
+  // height: calc(100vh - 157px);
+  overflow: auto;
+  @media screen and (max-width: 767px) {
+    max-width: 90%;
+    padding: 20px 0;
+  }
+}
+.content_botom svg {
+  width: 100%;
+  max-width: 23px;
+  height: 23px;
+}
+button.submin_btn {
+  background: #681d1d;
+  color: #fff;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 12px;
+  @media screen and (max-width: 767px) {
+    padding: 10px 28px;
+  }
+}
+
+button.account_btn {
+  display: flex;
+  color: #742525;
+  border: 1px solid #681d1d;
+  padding: 10px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 12px;
+  @media screen and (max-width: 767px) {
+    padding: 10px 28px;
+  }
+}
+
+.forgot_pass {
+  text-align: right;
+  font-weight: 600;
+}
+
+.forgot_pass span {
+  cursor: pointer;
+  color: #681d1d;
+}
+.forgot_pass span:hover {
+  text-decoration: underline;
+}
+.forgot_password input {
+  width: 100%;
+  height: 38px;
+  margin-bottom: 10px;
+  padding: 0 5px;
+  min-height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.new_passscreen {
+  height: 100%;
+  margin-bottom: 30px;
+}
+.forgot_password {
+  width: 100%;
+}
+.new_passscreen .changeEmail button {
+  background: transparent;
+  color: #681d1d;
+  padding: 0;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.new_passscreen .changeEmail button:hover {
+  text-decoration: underline;
+}
+
+.editProfile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box_profile {
+  background: #681d1d26;
+  padding: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+
+  @media screen and (max-width: 767px) {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+}
+.editProfile button {
+  margin: 0 !important;
+}
+.ProfileImg {
+  margin: 0 auto;
+  max-width: 18%;
+  position: relative;
+  width: 100%;
+}
+.editIcon {
+  background: #681d1d;
+  border-radius: 50%;
+  bottom: 3px;
+  cursor: pointer;
+  height: 22px;
+  line-height: 28px;
+  position: absolute;
+  right: 2px;
+  width: 22px;
+}
+
+.ProfileImg img {
+  border-radius: 50%;
+  height: 80px;
+  max-width: 80px;
+  width: 100%;
+}
+
+.nameprofile:last-child .state {
+  margin-bottom: 0;
+}
+.nameprofile {
+  display: flex;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+.state h6 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.state h4 {
+  margin: 0;
+  font-size: 16px;
+}
+.name h4 {
+  text-transform: capitalize;
+}
+.state {
+  display: flex;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  width: 50%;
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+  
+}
+.editIcon img {
+  max-width: 11px;
+  height: 11px;
+  padding: 3px;
+}
+.commentsLists {
+  list-style: none;
+  text-align: left;
+  padding-left: 30px;
+  li {
+    padding: 5px 0;
+  }
+}
+.commentsPlabein {
+  text-align: left;
+  padding-left: 0px;
+  margin-bottom: 0;
+  font-size: 22px;
+}
+.rejected_city {
+  height: calc(100vh - 140px);
+  overflow: auto;
+}
+.close_button {
+  background: #681d1d;
+  border: none;
+  color: #fff;
+  padding: 4px 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media screen and (min-width: 480px) {
+  .rejected_city {
+    height: calc(100vh - 140px);
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ProfileImg {
+    max-width: 25%;
+  }
+}

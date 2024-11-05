@@ -1,0 +1,45 @@
+.container {
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  .content {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .common {
+      margin: 10px auto;
+      color: red;
+      font-size: large;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      svg {
+        fill: red;
+      }
+      .failed {
+        font-size: larger;
+        font-weight: bold;
+        text-align: center;
+        color: red;
+      }
+      p {
+        margin: 10px 29px;
+      }
+      .back {
+        width: auto;
+        text-transform: uppercase;
+        background-color: rgb(83, 35, 35);
+        color: white;
+        font-size: medium;
+        margin: 18px auto;
+        padding: 10px 12px;
+        text-decoration: none;
+        border-radius: 50px;
+      }
+    }
+  }
+}

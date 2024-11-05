@@ -1,0 +1,55 @@
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  z-index: 99999;
+  color: #fff;
+}
+.ReactModal__Content.ReactModal__Content--after-open {
+  padding: 20px 0 !important;
+  inset: 10px !important;
+}
+
+h3 {
+  text-align: center;
+  padding: 18px 10px;
+  color: #000000 !important;
+}
+
+.confirmationButtons {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.delete_button {
+  height: 23.3px;
+  width: 58.5px;
+  background: #681d1d;
+  color: #fff;
+  border: none;
+  padding: 4px 10px;
+}
+.cancel_button {
+  background: #681d1d;
+  color: #fff;
+  border: none;
+  padding: 4px 10px;
+}
+
+.emm_modal {
+  position: absolute;
+  inset: 10px !important;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: 100% !important;
+  max-width: 50% !important;
+}
+
+@media screen and (max-width: 480px) {
+  .emm_modal {
+    width: 100% !important;
+    max-width: 80% !important;
+  }
+}

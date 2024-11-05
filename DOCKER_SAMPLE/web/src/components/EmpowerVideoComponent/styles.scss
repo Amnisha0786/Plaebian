@@ -1,0 +1,16 @@
+.bar-icons {
+  display: flex;
+  align-items: center;
+  
+  svg {
+    width: 24px !important;
+    height: 24px;
+    margin-right: 5px;
+    g {
+      fill: #c9bf9a;
+      path {
+        fill: #fff;
+      }
+    }
+  }
+}

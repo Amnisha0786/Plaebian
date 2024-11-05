@@ -1,0 +1,134 @@
+.commentsCount ul li.green svg path {
+  fill: green;
+}
+.commentsCount ul li.black svg path {
+  fill: black;
+}
+.commentsCount ul li.red svg path {
+  fill: red;
+}
+
+.commentsCount ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+  margin: 4px 0;
+  li {
+    display: flex;
+    align-items: center;
+    h6 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    span {
+      font-size: 16px;
+      font-weight: 600;
+      margin-right: 5px;
+    }
+
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .red {
+    span {
+      color: red;
+    }
+  }
+  .green {
+    span {
+      color: green;
+    }
+  }
+  .black {
+    span {
+      color: black;
+    }
+  }
+}
+.commentsCount ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+  margin: 4px 0;
+  li {
+    display: flex;
+    align-items: center;
+    h6 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    span {
+      font-size: 16px;
+      font-weight: 600;
+      margin-right: 5px;
+    }
+
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .red {
+    span {
+      color: red;
+    }
+  }
+  .green {
+    span {
+      color: green;
+    }
+  }
+  .black {
+    span {
+      color: black;
+    }
+  }
+}
+.commentsCount ul li.green svg path {
+  fill: green;
+}
+.commentsCount ul li.black svg path {
+  fill: black;
+}
+.commentsCount ul li.red svg path {
+  fill: red;
+}
+
+.commemtsSection {
+  .noti_contents {
+    border-bottom: 1px solid #ccc;
+    margin: 15px 0;
+    p {
+      margin-bottom: 0;
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+}
+
+.delet_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.delet_icon svg {
+  width: 100%;
+  max-width: 12px;
+  min-width: 12px;
+}
+.noti_box.commemtsSection {
+  overflow: auto;
+  height: calc(100vh - 290px);
+  padding: 0 15px;
+  svg {
+    cursor: pointer;
+  }
+}

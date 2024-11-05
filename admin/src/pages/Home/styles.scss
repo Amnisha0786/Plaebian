@@ -1,0 +1,142 @@
+.videoList {
+  padding-top: 30px;
+  .listMainBox {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+    .boxeslist {
+      width: 32%;
+      border: 1px solid #eee;
+      border-radius: 6px;
+      margin: 20px 0;
+      .video-img {
+        width: 100%;
+        height: 250px;
+        background: #ccc;
+      }
+      .video-text {
+        padding: 0 15px 25px;
+        .videoButtons {
+          button {
+            margin-right: 10px;
+            padding: 9px 15px;
+          }
+        }
+      }
+    }
+  }
+}
+.vid_player {
+  height: 100%;
+  width: 100%;
+
+  iframe {
+    width: 100%;
+    height: 250px;
+  }
+}
+.close {
+  background: transparent !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  cursor: pointer;
+}
+.formAddVideo {
+  .form-group {
+    label {
+      display: block;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    input {
+      width: 100%;
+      height: 36px;
+      padding: 0 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    textarea#w3review {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  }
+}
+button.common_btn.canalBtn.me-4 {
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid #671e1d;
+  color: #671e1d;
+}
+button.common_btn {
+  border: 1px solid #671e1d;
+}
+form.formAddVideo {
+  width: 100%;
+  box-sizing: border-box;
+}
+.form-group textarea {
+  width: 100% !important;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 58px !important;
+}
+.video-img {
+  text-align: center;
+  padding: 10px;
+  video {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .videoList {
+    padding: 30px 15px 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .videoList .listMainBox .boxeslist {
+    width: 31%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .videoList .listMainBox {
+    gap: 10px;
+  }
+  .videoList .listMainBox .boxeslist {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .videoList .listMainBox .boxeslist {
+    width: 100%;
+  }
+  .videoList .listMainBox {
+    gap: 0px;
+  }
+  .videoButtons .common_btn {
+    margin-top: 10px;
+  }
+  .upload-video video {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .video-img {
+    text-align: center;
+    padding: 0px;
+    video {
+      margin: auto;
+      width: 100%;
+      padding: 0;
+      height: 100%;
+    }
+  }
+}

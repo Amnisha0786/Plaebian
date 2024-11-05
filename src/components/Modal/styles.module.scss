@@ -1,0 +1,98 @@
+button.btn_sub {
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #681d1d;
+  cursor: pointer;
+  padding: 10px 45px;
+}
+.text_center {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #fff;
+}
+
+.filter_invert {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+.total_coins {
+  label {
+    color: #fff;
+  }
+  h3 {
+    color: #fff;
+  }
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  z-index: 99999;
+}
+.em_modal {
+  background: #681d1d !important;
+  border-radius: 5px;
+  height: 250px !important;
+  position: absolute;
+  top: 27% !important;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.lightClose_button {
+  border: none;
+  padding: 4px 10px;
+  background: #fff !important;
+  border-radius: 4px;
+  color: #681d1d !important;
+  cursor: pointer;
+  margin: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.ReactModal__Content {
+  inset: 10px !important;
+  padding: 20px 0;
+}
+.ReactModal__Content {
+  margin: 0 auto;
+  max-width: 50%;
+  width: 50%;
+}
+
+.form_group.cust_cls {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form_group {
+  margin: 15px 0 20px;
+}
+
+.form_group.text_center {
+  text-align: center;
+}
+
+button.btn_sub {
+  background: #681d1d;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 45px;
+}
+.submit {
+  border: 1px solid #fff !important;
+}
+.modal_power_icon {
+  path {
+    fill: #fff;
+  }
+}
+
+.modal_content {
+  color: #fff !important;
+}

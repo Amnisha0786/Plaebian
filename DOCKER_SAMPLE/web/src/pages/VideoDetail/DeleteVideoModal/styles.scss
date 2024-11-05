@@ -1,0 +1,36 @@
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  z-index: 99999;
+}
+.ReactModal__Content.ReactModal__Content--after-open {
+  padding: 20px 0;
+  inset: 10px !important;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open h3 {
+  text-align: center;
+  padding: 18px 10px;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open .confirmationButtons {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ReactModal__Content.ReactModal__Content--after-open .delete-button {
+  height: 23.3px;
+  width: 58.5px;
+  background: #681d1d;
+  color: #fff;
+  border: none;
+  padding: 4px 10px;
+}
+.ReactModal__Content.ReactModal__Content--after-open .cancel-button {
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  background: #681d1d;
+  color: #fff;
+  border: none;
+  padding: 4px 10px;
+}

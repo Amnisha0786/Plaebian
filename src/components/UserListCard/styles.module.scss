@@ -1,0 +1,132 @@
+.home_profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.home_profile .home_img_text {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+}
+
+.home_profile .home_img_text .home_img {
+  position: relative;
+  top: 0px;
+}
+.home_profile .home_img_text .home_img img {
+  max-width: 60px;
+  top: 0;
+  border-radius: 0;
+  object-fit: cover;
+  height: 60px;
+  margin-right: 3px;
+  border-radius: 50%;
+  width: 60px;
+}
+.home_profile .home_head {
+  margin-left: 4px;
+  margin-top: 2px;
+  // text-transform: uppercase;
+  width: 90%;
+  max-width: 90%;
+  flex: 0 0 90%;
+}
+.home_profile .home_head h2 {
+  text-align: left;
+  margin: 0;
+  font-size: 18px;
+  margin-top: 2px;
+  border-bottom: none;
+  padding: 0;
+  text-transform: capitalize;
+}
+.home_profile .home_head .content_botom {
+  display: flex;
+  margin-top: 2px;
+}
+.home_profile .home_head .content_botom img {
+  width: 100%;
+  max-width: 27px;
+}
+.home_profile .home_head .content_botom span {
+  margin-top: 4px;
+  margin-left: 4px;
+  font-weight: 600;
+}
+
+.d_flex {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+// .flex2 {
+//   // width: 98% !important;
+//   display: flex;
+//   margin-bottom: 5px;
+//   align-items: center;
+// }
+
+.d_flex .content_botom {
+  // width: 100%;
+  align-items: center;
+}
+
+.content_botom.end path {
+  fill: #777;
+}
+
+.end {
+  width: 32%;
+}
+.address {
+  width: 69%;
+}
+
+.home_profile .home_head .content_botom {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+.home_profile .home_head .content_botom img {
+  width: 100%;
+  max-width: 27px;
+}
+.home_profile .home_head .content_botom span {
+  margin-top: 4px;
+  margin-left: 4px;
+  color: #777;
+  font-weight: 600;
+}
+.border_bottom_none {
+  border-bottom: none;
+}
+.margin_0 {
+  margin: 0;
+}
+
+.profile_svg {
+  path {
+    fill: #777;
+  }
+}
+
+.content_botom svg {
+  width: 100%;
+  max-width: 23px;
+  height: 23px;
+}
+
+@media only screen and (max-width: 767px) {
+  .home_profile .home_head {
+    width: 80%;
+    max-width: 80%;
+    flex: 0 0 80%;
+  }
+}

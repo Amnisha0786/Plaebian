@@ -1,0 +1,63 @@
+version: '3'
+
+services:
+    db:
+        build:
+            context: ./db
+            dockerfile: Dockerfile
+        image: empowercontainer.azurecr.io/empower/db:latest
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: asdfqwer123
+            POSTGRES_DB: empower
+            DB_NAME: empower
+            DB_USER: postgres
+            DB_PORT: 5432
+            DB_PASSWORD: asdfqwer123
+        ports:
+            - '5432:5432'
+    server:
+        build:
+            context: ./server
+            dockerfile: Dockerfile.dev
+        image: empowercontainer.azurecr.io/empower/server:latest
+        environment:
+            POSTGRES_PASSWORD: asdfqwer123
+            POSTGRES_DB: empower
+            DB_NAME: empower
+            DB_USER: postgres
+            DB_PORT: 5432
+            DB_PASSWORD: asdfqwer123
+            DB_HOST: db
+            JWT_SECRET: asdfasd123qawsreqw
+            BASE_URL: http://localhost
+        command: npm run dev
+        depends_on:
+            - db
+        links:
+            - db
+    web:
+        build:
+            context: ./web
+            dockerfile: Dockerfile.dev
+        image: empowercontainer.azurecr.io/empower/web:latest
+        environment:
+            BASE_URL: http://localhost
+            WDS_SOCKET_PORT: 443
+        depends_on:
+            - server
+        ports:
+            - '3000:3000'
+    nginx:
+        build:
+            context: ./nginx
+            dockerfile: Dockerfile.dev
+        image: empowercontainer.azurecr.io/empower/nginx:latest
+        ports:
+            - '80:80'
+            - '443:443'
+        depends_on:
+            - web
+        links:
+            - web
+            - server

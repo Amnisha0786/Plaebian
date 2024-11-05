@@ -1,0 +1,140 @@
+.search {
+  position: relative;
+  height: 30px;
+}
+.spents .videos {
+  margin-top: 0;
+  height: calc(100% - 30px);
+}
+.search img {
+  width: 100%;
+  max-width: 20px;
+  top: -20px;
+  position: relative;
+  left: -80px;
+}
+.search input {
+  width: 100%;
+  border: none;
+  font-weight: 600;
+  padding: 3px 5px 3px 30px;
+  margin-top: 5px;
+  background-image: url("./../../assets/icons/icons-search.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.search input:focus-visible {
+  outline: none;
+}
+.spents .videos .video_box {
+  background-color: #acadac;
+  padding: 0px;
+  position: relative;
+  height: 150px;
+  margin: 0px;
+  width: 33%;
+  display: inline-block;
+  line-height: 100px;
+  position: relative;
+  margin-top: 8px;
+  margin: 3px 0;
+}
+.spents.tutorial .videos .video_box .vid {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 20px;
+  padding: 0 10px;
+  color: #fff;
+  font-weight: 600;
+}
+.spents .videos .progress-parent {
+  z-index: 9;
+  bottom: 20px;
+  height: 20px !important;
+}
+.spents .videos .progress-parent .child .text .power-icons {
+  max-width: 16px;
+  top: 2px;
+}
+.spents.tutorial .videos {
+  height: auto;
+  justify-content: space-around;
+}
+.spents .videos .progress-parent .child .text {
+  line-height: 0;
+  top: 0;
+}
+.spents .progress-parent .child .text {
+  padding: 0px;
+  color: black;
+  font-weight: 900;
+  position: absolute;
+  left: 10px;
+  top: -6px;
+  color: #fff;
+}
+.spents .progress-parent .child {
+  background-color: transparent !important;
+}
+.spents {
+  height: calc(100vh - 120px);
+  overflow: auto;
+}
+.videos.modal-cssTutorial .video_box {
+  width: 100%;
+  height: 90vh;
+}
+.videos.modal-cssTutorial {
+  height: 100vh;
+}
+.spents.tutorial .videos .video_box {
+  width: 32%;
+  position: relative;
+  background-color: #8e774eb8;
+}
+
+.badge-success {
+  color: #fff;
+  background-color: #28a745;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media only screen and (min-width: 480px) {
+  .spents {
+    height: calc(100vh - 120px);
+    overflow: auto;
+  }
+  .search img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .search img {
+    left: -10px;
+  }
+  .spents.tutorial .videos .video_box .vid {
+    font-size: 12px;
+  }
+  .spents.tutorial .videos .video_box {
+    width: 48%;
+  }
+}

@@ -1,0 +1,79 @@
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 100;
+
+  footer {
+    background-color: #681d1d;
+    padding: 5px 10px;
+    .footer_nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      a {
+        line-height: 12px;
+        text-decoration: none;
+        .footer_icon {
+          width: 100%;
+          max-width: 35px;
+          height: 40px;
+          object-fit: cover;
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &.active path {
+            fill: #8d784e;
+          }
+
+          svg {
+            max-width: 35px;
+            height: 40px;
+          }
+          svg path {
+            fill: #c9bf9a;
+          }
+        }
+
+        .midd_icon svg {
+          width: 65px;
+          max-width: 65px;
+          height: 65px;
+        }
+
+        .footer_icon.midd_icon {
+          max-width: 45px;
+        }
+        p {
+          margin: 0;
+          margin-bottom: 5px;
+          color: #cabf99;
+        }
+      }
+      .active p {
+        color: #8d784e;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .footer footer .footer_nav a .footer_icon {
+    max-width: 30px;
+    height: 30px;
+  }
+  .midd_icon {
+    max-width: 50px !important;
+    height: 50px !important;
+  }
+  .plebeain_page .icons_section .icons_img {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .footer {
+    position: inherit;
+  }
+}

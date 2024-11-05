@@ -1,0 +1,40 @@
+.info {
+  position: absolute;
+  color: #fff;
+  top: 8px;
+  left: 2px;
+  width: 65px;
+  height: 20px;
+  display: flex;
+  .button {
+    width: 19px;
+    background: #681d1d;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    svg {
+      fill: white;
+    }
+  }
+  .timer {
+    width: 50px;
+    height: 20px;
+    background: #681d1d;
+    color: #fff;
+    margin-left: 2px;
+    padding-left: 4px;
+    // top: 8px;
+    // margin-left: 3px;
+    border-radius: 5px;
+
+    .span {
+      height: 100%;
+      font-size: 10px;
+      /* margin: 0; */
+      display: flex;
+      align-items: center;
+    }
+  }
+}

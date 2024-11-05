@@ -1,0 +1,124 @@
+.container {
+  padding: 0 10px;
+  height: calc(100vh - 138px);
+  overflow: auto;
+  h3 {
+    color: black;
+  }
+  .button_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 0;
+    button {
+      padding: 9px 48px;
+      border: 1px solid darkgray;
+      border-radius: 0;
+      cursor: pointer;
+    }
+    .active {
+      background-color: #681d1d;
+      color: white;
+    }
+    .cash {
+      color: #681d1d;
+      background-color: white;
+    }
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .coins {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .upper_content {
+    background: #681d1d26;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .inner_content {
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    .submitBtn {
+      display: flex;
+      background: #681d1d;
+      color: white;
+      padding: 12px 35px;
+      border-radius: 10px;
+      border: none;
+    }
+  }
+  .lower_content {
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 3px 8px #c0bcbc;
+  }
+  .cash_in_box,
+  .cash_out_box {
+    label {
+      position: relative;
+      left: 25px;
+      top: 6px;
+      svg {
+        width: 23px;
+        height: 23px;
+      }
+    }
+    .inputText {
+      padding: 5px 2px;
+      text-indent: 22px;
+      width: 90px;
+    }
+  }
+  .links {
+    cursor: pointer;
+    padding: 10px 0px;
+    padding-left: 116px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    a {
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+}
+.warnings {
+  text-align: start;
+  margin-left: 40px;
+  padding-top: 17px;
+  color: #681d1d;
+  ul {
+    span {
+      font-weight: 500;
+    }
+    li {
+      padding: 5px;
+    }
+  }
+}
+.err {
+  color: red;
+  margin-top: 0px;
+}
+.textColor {
+  font-size: 16px !important;
+  color: #8d784e !important;
+}
+@media screen and (max-width: 767px) {
+  .upper_content,
+  .lower_content,
+  .inner_content {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .warnings {
+    margin-left: 0;
+    padding-top: 0;
+  }
+}

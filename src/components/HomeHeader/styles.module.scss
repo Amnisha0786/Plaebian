@@ -1,0 +1,45 @@
+header.home_header {
+  background-color: #681d1d;
+  padding: 5px 10px;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header_icon {
+      width: 100%;
+      max-width: 60px;
+      height: 60px;
+      object-fit: cover;
+      cursor: pointer;
+    }
+    .header_icon {
+      svg {
+        height: 53px;
+        width: 100%;
+        path {
+          fill: #c9bf9a;
+        }
+      }
+    }
+
+    p {
+      font-size: 20px;
+      color: #c9bf9a;
+      margin: 4px 0 6px;
+    }
+    .font_16 {
+      font-size: 16px;
+    }
+    @media screen and (max-width: 400px) {
+      p {
+        font-size: 12px;
+        padding: 0 4px;
+        font-weight: 600;
+      }
+      .header_icon {
+        max-width: 48px;
+        height: 50px;
+      }
+    }
+  }
+}

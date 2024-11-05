@@ -1,0 +1,120 @@
+.videos {
+  margin-top: 12px;
+  display: inline-block;
+  width: 100%;
+  height: calc(100% - 320px);
+  overflow: auto;
+  text-align: left;
+  .video_box {
+    background-color: #acadac;
+    // background-color: transparent;
+    padding: 0px;
+    position: relative;
+    height: 150px;
+    margin: 3px 2px;
+    width: 32%;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+    position: relative;
+    cursor: pointer;
+    .vid {
+      img {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    .vid_player {
+      height: 150px;
+
+      iframe {
+        width: 100% !important;
+      }
+    }
+
+    .img_text-video {
+      position: absolute;
+      bottom: 10px;
+      line-height: 0;
+      display: flex;
+      align-items: center;
+      left: 10px;
+      img {
+        width: 100%;
+        max-width: 20px;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 4px;
+        margin-right: 5px;
+      }
+      span {
+        color: #fff;
+      }
+    }
+  }
+  .progress-parent {
+    z-index: 9;
+    bottom: 20px;
+    height: 20px !important;
+  }
+  .progress-parent .child .text {
+    line-height: 0;
+    top: 2px;
+    .power-icons {
+      max-width: 16px;
+      top: 2px;
+    }
+    svg {
+      width: 24px;
+    }
+  }
+}
+
+.vid-modal {
+  height: 100%;
+  iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  z-index: 99999;
+}
+.ReactModal__Content.ReactModal__Content--after-open {
+  padding: 20px 0;
+  inset: 10px !important;
+}
+.ReactModal__Content.ReactModal__Content--after-open .close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #681d1d;
+  color: #fff;
+  border: none;
+  padding: 4px 10px;
+}
+.ReactModal__Content.ReactModal__Content--after-open
+  button.close-button.right_spac {
+  right: 65px;
+}
+.progress-parent .child .spent svg {
+  width: 16px;
+  height: 16px;
+  top: 2px;
+}
+@media only screen and (max-width: 480px) {
+  .plebeain_page {
+    height: calc(100% - 140px);
+    min-height: calc(100% - 140px);
+    overflow: auto;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .videos {
+    height: 100%;
+    min-height: 100%;
+    overflow: inherit;
+  }
+}

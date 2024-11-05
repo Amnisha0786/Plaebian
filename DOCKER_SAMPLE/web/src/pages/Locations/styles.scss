@@ -1,0 +1,174 @@
+.titles select#cars {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+}
+
+header.home-header.titles nav p {
+  display: flex;
+}
+
+.titles select:focus-visible {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.home_profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home_profile .home-img-text {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.home_profile .home-img-text .home-img {
+  position: relative;
+  top: 0px;
+}
+.home_profile .home-img-text .home-img img {
+  max-width: 60px;
+  top: 0;
+  border-radius: 0;
+  object-fit: cover;
+  height: 60px;
+  margin-right: 3px;
+}
+.home_profile .home-head {
+  margin-left: 4px;
+  margin-top: 2px;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+.home_profile .home-head h2 {
+  text-align: left;
+  margin: 0;
+  font-size: 18px;
+  margin-top: 2px;
+  border-bottom: none;
+  padding: 0;
+}
+.home_profile .home-head .content_botom {
+  display: flex;
+  margin-top: 2px;
+}
+.home_profile .home-head .content_botom img {
+  width: 100%;
+  max-width: 27px;
+}
+.home_profile .home-head .content_botom span {
+  margin-top: 4px;
+  margin-left: 4px;
+  font-weight: 600;
+}
+.title_mains {
+  padding: 12px;
+  height: calc(100vh - 160px);
+  overflow: auto;
+}
+
+.title_mains h4 {
+  margin: 0;
+  text-align: left;
+}
+.titles_top {
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px solid;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.titles_top svg {
+  width: 100%;
+  max-width: 80px;
+  height: 60px;
+  margin-right: 10px;
+}
+.titles_top h4 {
+  top: -8px;
+  position: relative;
+}
+.content_botom svg {
+  width: 100%;
+  max-width: 23px;
+  height: 23px;
+}
+.top-bottom {
+  margin-bottom: 15px;
+}
+header nav .header-icon.active svg path {
+  fill: #8d784e;
+}
+p.d-flex.selects_options {
+  align-items: center;
+  flex: 0 0 60%;
+}
+.selects_options .css-b62m3t-container {
+  width: 100%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.spentssss {
+  .videos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.title_mains .locPro:first-child .locationMain {
+  background: #681d1d24;
+  padding: 12px 15px 20px;
+  box-shadow: 0px 0px 3px 1px #00000024;
+  border: 1px solid #681d1d24;
+  border-radius: 4px;
+  background: #c9bf9a75;
+}
+.home-head.clsHomeHead {
+  display: flex;
+  justify-content: space-between;
+  width: 90% !important;
+  max-width: 90% !important;
+  flex: 0 0 90% !important;
+}
+
+.covers {
+  width: 100%;
+}
+.w-100 {
+  width: 100%;
+}
+.endscover .content_botom {
+  justify-content: flex-end !important;
+}
+
+.titles_top.location-space {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-color: #ccc;
+}
+@media only screen and (max-width: 480px) {
+  .home-head.clsHomeHead {
+    width: 70% !important;
+    max-width: 70% !important;
+    flex: 0 0 70% !important;
+  }
+  .tabsProfiles .icons_img {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .plebeain_page.tabsProfiles {
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+  }
+}

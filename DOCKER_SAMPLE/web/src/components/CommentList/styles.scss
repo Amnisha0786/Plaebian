@@ -1,0 +1,103 @@
+.notifications .noti-main .noti-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+.notifications.commentss .noti-box {
+  align-items: start !important;
+}
+.notifications.commentss .noti-main .noti-box .noti-img {
+  width: auto;
+  text-align: left;
+}
+.notifications.commentss .noti-main .noti-box .noti-contents {
+  width: 100%;
+}
+.notifications .noti-main .noti-box .noti-contents {
+  margin-left: 7px;
+  width: 96%;
+}
+.delet-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.notifications .noti-main .noti-box .noti-contents h5 {
+  margin: 0;
+  text-align: left;
+}
+.notifications.commentss .noti-main .noti-box .noti-contents p {
+  color: #969595;
+}
+.notifications .noti-main .noti-box .noti-contents p {
+  text-align: left;
+  font-size: 12px;
+  margin: 2px 0;
+  font-weight: 600;
+}
+.ul_div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.notifications.commentss .ul_div.comments_ul ul {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+}
+.ul_div.comments_ul ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notifications.commentss .ul_div.comments_ul ul li {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.home_page .ul_div ul li {
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.notifications.commentss ul li svg {
+  width: 100%;
+  max-width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.notifications.commentss .ul_div.comments_ul ul li span {
+  font-size: 14px;
+  display: block;
+}
+.notifications .noti-main .noti-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+.notifications.commentss .noti-box {
+  align-items: start !important;
+}
+.notifications.commentss .noti-box img {
+  border-radius: 50%;
+  width: 35px !important;
+  height: 35px;
+}
+.notifications.commentss .noti-main .noti-box .noti-contents {
+  width: 100%;
+  margin-left: 7px;
+}
+
+@media screen and (max-width: 480px) {
+  .notifications .noti-main .noti-box .noti-img {
+    width: 10%;
+  }
+  .notifications .noti-main .noti-box .noti-contents {
+    width: 90%;
+  }
+}

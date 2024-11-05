@@ -1,0 +1,147 @@
+.files {
+  position: relative;
+
+  input {
+    height: 80px;
+    opacity: 0;
+    border: 1px dotted #777;
+    z-index: 99;
+    position: relative;
+    cursor: pointer;
+  }
+  .ulpad_text {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    border: 1px dotted #777;
+    border-radius: 4px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    cursor: pointer;
+    h4 {
+      margin: 0;
+      color: #777;
+      font-weight: 500;
+    }
+  }
+}
+.signUp {
+  select {
+    width: 100%;
+    border: 1px solid #eee;
+    height: 36px;
+    border-radius: 6px;
+    padding: 0 12px;
+  }
+}
+.signUp {
+  padding: 20px 40px;
+  width: 100%;
+  max-width: 60%;
+  margin: 0 auto;
+  height: calc(100vh - 157px);
+  overflow: auto;
+}
+.formgroup {
+  margin: 15px 0 20px;
+}
+
+.signUp .formgroup label {
+  width: 100%;
+  display: block;
+  text-align: left;
+  margin: 8px 0;
+}
+button.submin_btn {
+  background: #681d1d;
+  color: #fff;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.signUp button.submin_btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.signUp .formgroup input {
+  width: 95%;
+  border: 1px solid #eee;
+  height: 36px;
+  border-radius: 6px;
+  padding: 0 12px;
+  z-index: 1;
+}
+#react-select-3-listbox,
+#react-select-5-listbox,
+#react-select-7-listbox,
+#react-select-9-listbox {
+  text-align: left;
+  z-index: 999;
+}
+.css-3w2yfm-ValueContainer {
+  height: 36px;
+  margin-top: 0px;
+}
+.css-1hb7zxy-IndicatorsContainer {
+  height: 36px;
+}
+.css-13cymwt-control {
+  height: 36px;
+  border: 1px solid #eee !important;
+}
+.css-qbdosj-Input {
+  height: 26px;
+}
+div#react-select-3-placeholder,
+div#react-select-5-placeholder,
+div#react-select-7-placeholder,
+div#react-select-9-placeholder {
+  text-align: left;
+  margin-top: 0px;
+}
+input#react-select-3-input,
+input#react-select-5-input,
+input#react-select-7-input,
+input#react-select-9-input {
+  height: 26px;
+}
+.css-1dimb5e-singleValue {
+  text-align: left;
+}
+.files input {
+  height: 80px !important;
+}
+.pic_profile .files .ulpad_text {
+  z-index: inherit;
+}
+.editProfileModal h2 {
+  text-align: left;
+}
+.city_select {
+  text-align: left;
+}
+@media only screen and (max-width: 767px) {
+  .signUp {
+    max-width: 90%;
+    padding: 20px 15px;
+  }
+  .signUp .formgroup input {
+    width: 93%;
+    z-index: 1;
+  }
+
+  .signUp button.submin_btn {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .editProfile h2 {
+    margin-top: 0;
+  }
+}

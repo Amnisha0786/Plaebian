@@ -1,0 +1,118 @@
+.progress_parent {
+  width: 100%;
+  background-color: #c9bf9a;
+  border-radius: 0px;
+  margin-bottom: 10px;
+  // position: relative;
+  position: absolute;
+  bottom: -10px;
+  .child {
+    height: 100%;
+    border-radius: 0px;
+    text-align: right;
+
+    background-color: #8d784d !important;
+    .spent {
+      display: flex;
+      align-items: center;
+      svg {
+        width: 24px;
+        g {
+          fill: #c9bf9a;
+          path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+    .text {
+      padding: 0px;
+      color: black;
+      font-weight: 900;
+      position: absolute;
+      left: 10px;
+      top: 0px;
+      color: #fff;
+      .power_icons {
+        max-width: 26px;
+        position: relative;
+        top: 8px;
+      }
+    }
+  }
+}
+
+.child {
+  height: 100%;
+  border-radius: 0px;
+  text-align: right;
+
+  background-color: #8d784d !important;
+  .text {
+    display: flex;
+    align-items: center;
+    svg {
+      width: 24px;
+      g {
+        fill: #c9bf9a;
+        path {
+          fill: #fff;
+        }
+      }
+    }
+  }
+  .text {
+    padding: 0px;
+    color: black;
+    font-weight: 900;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    bottom: 0;
+    color: #fff;
+    .power_icons {
+      max-width: 26px;
+      position: relative;
+      top: 8px;
+    }
+  }
+}
+
+.progress_bar {
+  width: 100%;
+  background-color: #c9bf9a;
+  border-radius: 0px;
+  position: relative;
+  bottom: 0;
+  margin-bottom: 10px !important;
+  .child {
+    height: 100%;
+    border-radius: 0px;
+    text-align: right;
+    background-color: #8d784d !important;
+    .icon_bar {
+      display: flex;
+      align-items: center;
+      svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 0;
+        g {
+          fill: #c9bf9a;
+          path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+    .text {
+      padding: 0px;
+      color: black;
+      font-weight: 900;
+      position: absolute;
+      left: 10px;
+      top: 4px;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,109 @@
+.main_page {
+  background: #fff;
+  text-align: center;
+  width: 100%;
+  max-width: 575px;
+  margin: 0 auto;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #681d1d;
+  border-bottom: 0;
+}
+
+.error-mesage {
+  text-align: left;
+  font-size: 13px;
+  color: red;
+  display: block;
+  margin-bottom: 12px;
+}
+
+
+.preview-img {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  border-radius: 4px;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+  width: 50%;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.spinner-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinners {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 3px solid #f3f3f3;
+  border-top-color: #cc75755c;
+  animation: spins 1s ease-in-out infinite;
+}
+
+.border-none {
+  border: 0
+}
+
+.border-bottom-none {
+  border: 0
+}
+
+.margin-0 {
+  margin: 0
+}
+
+.relative {
+  position: relative;
+}
+
+@keyframes spins {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cursor-point {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 480px) {
+  .main_page {
+    overflow: inherit;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .main_page {
+    max-width: 775px;
+  }
+
+  body {
+    background: #eee;
+  }
+}
+
+@media screen and (max-width: 48px) {
+  .Toastify__toast {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ReactModal__Content.ReactModal__Content--after-open {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}

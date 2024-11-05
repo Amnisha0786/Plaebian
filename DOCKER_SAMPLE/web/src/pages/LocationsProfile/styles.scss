@@ -1,0 +1,255 @@
+.titles select#cars {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+}
+
+header.home-header.titles nav p {
+  display: flex;
+}
+
+.titles select:focus-visible {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.home_profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home_profile .home-img-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.home_profile.legionary .home-img-text {
+  width: 90%;
+}
+.content_botom.end {
+  justify-content: end;
+}
+.home_profile .home-img-text .home-img {
+  position: relative;
+  top: 0px;
+}
+.home_profile .home-img-text .home-img img {
+  max-width: 60px;
+  top: 0;
+  border-radius: 0;
+  object-fit: cover;
+  height: 60px;
+  margin-right: 3px;
+}
+.home_profile .home-head {
+  margin-left: 4px;
+  margin-top: 2px;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+.home_profile .home-head.location-profile h2 {
+  text-align: left;
+  margin: 0;
+  font-size: 18px;
+  margin-top: 2px;
+  border-bottom: none;
+  padding: 0;
+  color: #777;
+}
+.home_profile .home-head .content_botom {
+  display: flex;
+  margin-top: 2px;
+}
+.home_profile .home-head .content_botom img {
+  width: 100%;
+  max-width: 27px;
+}
+.home_profile .home-head .content_botom span {
+  margin-top: 4px;
+  margin-left: 4px;
+  color: #777;
+  font-weight: 600;
+}
+.home_profile .home-head {
+  flex: 0 0 100%;
+  margin-left: 4px;
+  margin-top: 2px;
+  max-width: 80% !important;
+  text-transform: uppercase;
+  width: 80%;
+}
+.plebeain_page .icons_section .icons_img svg {
+  height: 35px;
+}
+.bgColor {
+  background: #c9bf9a6b;
+  padding: 10px;
+  border-radius: 8px;
+}
+.title_mains {
+  padding: 12px;
+  height: calc(100vh - 160px);
+  overflow: auto;
+}
+
+.title_mains h4 {
+  margin: 0;
+  text-align: left;
+}
+.titles_top {
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px solid;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.titles_top svg {
+  width: 100%;
+  max-width: 80px;
+  height: 60px;
+  margin-right: 10px;
+}
+.titles_top h4 {
+  top: -8px;
+  position: relative;
+}
+.content_botom svg {
+  width: 100%;
+  max-width: 23px;
+  height: 23px;
+}
+
+.top-bottom {
+  margin-bottom: 15px;
+}
+.locPro .top-bottom .titles_top {
+  width: 100%;
+  border-color: #ccc;
+}
+header nav .header-icon.active svg path {
+  fill: #8d784e;
+}
+p.d-flex.selects_options {
+  align-items: center;
+  flex: 0 0 60%;
+}
+.selects_options .css-b62m3t-container {
+  width: 100%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.d-flex {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.flex2 {
+  width: 98% !important;
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.d-flex.selects_options img {
+  height: 24px;
+}
+
+.home_profile .home-head .d-flex .content_botom {
+  width: 100%;
+  align-items: center;
+}
+.listslocations {
+  padding-top: 10px;
+}
+
+.listslocations .home_profile .home-img-text .home-img img {
+  border-radius: 50%;
+  width: 60px;
+}
+.listslocations .home_profile {
+  margin-top: 14px;
+}
+.titles_top.border-none {
+  border: none;
+}
+#react-select-4-listbox {
+  z-index: 999;
+}
+.titles_top.location-space {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-color: #ccc;
+}
+.content_botom.end path {
+  fill: #777;
+}
+.tabsProfiles .icons_img button {
+  padding: 0;
+  border: none;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.tabsProfiles .icons_img {
+  justify-content: space-around !important;
+  padding-top: 25px !important;
+  padding-bottom: 20px !important;
+}
+
+.home-head.clsHomeHead {
+  display: flex;
+  justify-content: space-between;
+  width: 90% !important;
+  max-width: 90% !important;
+  flex: 0 0 90% !important;
+}
+.home-img-text.w-100 {
+  width: 100%;
+}
+
+.plebeain_page .icons_section .icons_img {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid #333;
+  margin: 0 20px;
+}
+.tabsProfiles path {
+  fill: #777;
+}
+.tabsProfiles .active path {
+  fill: #000;
+}
+@media only screen and (max-width: 767px) {
+  .home_profile.legionary .home-img-text {
+    width: 98%;
+  }
+
+  .home-head.clsHomeHead {
+    display: flex;
+    justify-content: space-between;
+    width: 80% !important;
+    max-width: 80% !important;
+    flex: 0 0 80% !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .plebeain_page.tabsProfiles {
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+  }
+  .tabsProfiles .icons_img {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}

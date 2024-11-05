@@ -1,0 +1,82 @@
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  z-index: 99999;
+}
+.ReactModal__Content.ReactModal__Content--after-open {
+  padding: 20px 0;
+  inset: 10px !important;
+}
+.editProfileModal h2 {
+  text-align: left;
+}
+.form-group {
+  margin: 15px 0 20px;
+}
+.files {
+  position: relative;
+}
+.files input {
+  height: 80px !important;
+
+  opacity: 0;
+  border: 1px dotted #777;
+  z-index: 99;
+  position: relative;
+  cursor: pointer;
+}
+.files .ulpad_text h4 {
+  margin: 0;
+  color: #777;
+  font-weight: 500;
+}
+.files .ulpad_text {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  border: 1px dotted #777;
+  border-radius: 4px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  cursor: pointer;
+}
+.pic-profile .files .ulpad_text {
+  z-index: inherit;
+}
+.rejected_title {
+  text-align: center;
+}
+.rejected_title button.cancel_btn {
+  background: transparent;
+  border: 1px solid #681d1e;
+  margin: 0 10px;
+  height: 32px;
+  padding: 0 15px;
+  border-radius: 5px;
+}
+.rejected_title button.cancel_btn.rejected_btn {
+  background-color: #681d1e;
+  color: #fff;
+  border: 1px solid #681d1e;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+.rejected_title button.cancel_btn {
+  background: transparent;
+  border: 1px solid #681d1e;
+  margin: 0 10px;
+  height: 32px;
+  padding: 0 15px;
+  border-radius: 5px;
+}
+.ReactModal__Content.ReactModal__Content--after-open .close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #681d1d;
+  color: #fff;
+  border: none;
+  padding: 4px 10px;
+}

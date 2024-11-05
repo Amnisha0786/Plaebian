@@ -1,0 +1,116 @@
+.login {
+  padding: 20px 40px;
+  width: 100%;
+  max-width: 60%;
+  margin: 0 auto;
+  height: calc(100vh - 157px);
+  overflow: auto;
+}
+.form-group {
+  margin: 15px 0 20px;
+}
+
+.login .form-group label {
+  width: 100%;
+  display: block;
+  text-align: left;
+  margin: 8px 0;
+}
+button.submin_btn {
+  background: #681d1d;
+  color: #fff;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+.sign_up {
+  color: #681d1d;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login .form-group input {
+  width: 100%;
+  border: 1px solid #eee;
+  height: 36px;
+  border-radius: 6px;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+.forgot_pass {
+  text-align: right;
+  font-weight: 600;
+}
+
+.forgot_password button {
+  background: #681d1d;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.forgot_password .changeEmail button.confirmOld {
+  background: transparent;
+  padding: 0;
+  color: #681d1d;
+  font-weight: 600;
+  margin: 0;
+  text-decoration: underline;
+}
+.forgot_pass span {
+  cursor: pointer;
+  color: #681d1d;
+}
+.forgot_pass span:hover {
+  text-decoration: underline;
+}
+.forgot_password input {
+  width: 100%;
+  height: 38px;
+  margin-bottom: 10px;
+  padding: 0 5px;
+  min-height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.new-passscreen {
+  height: 100%;
+  margin-bottom: 30px;
+}
+.forgot_password {
+  width: 100%;
+}
+.new-passscreen .changeEmail button {
+  background: transparent;
+  color: #681d1d;
+  padding: 0;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.new-passscreen .changeEmail button:hover {
+  text-decoration: underline;
+}
+.changeEmail p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #777;
+  font-weight: 600;
+}
+@media only screen and (max-width: 767px) {
+  .login {
+    max-width: 90%;
+    padding: 20px 15px;
+  }
+  .login .form-group input {
+    width: 100%;
+  }
+}

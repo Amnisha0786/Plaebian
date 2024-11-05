@@ -1,0 +1,41 @@
+.progress-parent {
+  width: 100%;
+  background-color: #c9bf9a;
+  border-radius: 0px;
+  margin-bottom: 10px;
+  position: relative;
+  .child {
+    height: 100%;
+    border-radius: 0px;
+    text-align: right;
+
+    background-color: #8d784d !important;
+    .spent {
+      display: flex;
+      align-items: center;
+      svg {
+        width: 24px;
+        g {
+          fill: #c9bf9a;
+          path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+    .text {
+      padding: 0px;
+      color: black;
+      font-weight: 900;
+      position: absolute;
+      left: 10px;
+      top: -6px;
+      color: #fff;
+      .power-icons {
+        max-width: 26px;
+        position: relative;
+        top: 8px;
+      }
+    }
+  }
+}

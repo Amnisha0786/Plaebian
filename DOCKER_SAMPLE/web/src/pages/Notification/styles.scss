@@ -1,0 +1,53 @@
+.notifications {
+  padding: 0 10px 0;
+  height: calc(100vh - 120px);
+  overflow: auto;
+  .noti-title {
+    h2 {
+      font-size: 30px;
+      text-align: left;
+    }
+  }
+  .noti-main {
+    .noti-box {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 15px;
+      .noti-img {
+        text-align: left;
+        width: 4%;
+
+        @media screen and (max-width: 480px) {
+          width: 10%;
+        }
+        svg {
+          width: 100%;
+          max-width: 30px;
+          height: 30px;
+        }
+        img {
+          width: 30px;
+        }
+      }
+      .noti-contents {
+        margin-left: 7px;
+        width: 96%;
+        @media screen and (max-width: 480px) {
+          width: 90%;
+        }
+        h5 {
+          margin: 0;
+          text-align: left;
+        }
+        p {
+          text-align: left;
+          font-size: 12px;
+          margin: 2px 0;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

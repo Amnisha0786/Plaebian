@@ -1,0 +1,12 @@
+FROM node:16
+WORKDIR /usr/app
+ENV NODE_ENV development
+COPY package.json ./
+
+RUN npm install --legacy-peer-deps
+RUN apt update
+RUN apt install vim -y
+
+COPY . .
+
+# Enter build process

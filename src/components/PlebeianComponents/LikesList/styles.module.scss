@@ -1,0 +1,86 @@
+.videos {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: calc(100vh - 320px);
+  overflow: auto;
+  .video_box {
+    background-color: #acadac;
+    padding: 0px;
+    position: relative;
+    height: 150px;
+    margin: 3px 2px;
+    width: 32%;
+    display: inline-block;
+    line-height: 100px;
+    position: relative;
+    cursor: pointer;
+    .vid {
+      text-align: center;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+      }
+    }
+    .img_text_video {
+      position: absolute;
+      bottom: 10px;
+      line-height: 0;
+      display: flex;
+      align-items: center;
+      left: 10px;
+      img {
+        width: 100%;
+        max-width: 20px;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 4px;
+        margin-right: 5px;
+      }
+      span {
+        color: #fff;
+      }
+    }
+    .img_text_video {
+      position: absolute;
+      bottom: 10px;
+      line-height: 0;
+      display: flex;
+      align-items: center;
+      left: 10px;
+      img {
+        width: 100%;
+        max-width: 20px;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 4px;
+        margin-right: 5px;
+      }
+      span {
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .plebeain_page {
+    height: calc(100% - 140px);
+    min-height: calc(100% - 140px);
+    overflow: auto;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .videos {
+    height: calc(100vh - 302px);
+    min-height: calc(100vh - 302px);
+    overflow: auto;
+  }
+}

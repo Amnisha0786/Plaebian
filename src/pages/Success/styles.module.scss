@@ -1,0 +1,61 @@
+.common {
+  margin: 0;
+  padding: 0;
+
+  .content {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .main {
+      margin: 10px auto;
+      color: green;
+      font-size: medium;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      svg {
+        fill: green;
+      }
+      .pay {
+        font-size: larger;
+        padding-top: 20px;
+        font-weight: bold;
+        color: green;
+      }
+      p {
+        text-align: center;
+        margin: 5px 10px;
+        color: green;
+      }
+      .btn {
+        width: 108px;
+        text-transform: uppercase;
+        background-color: #681d1d;
+        color: white;
+        margin: 16px 0px;
+        padding: 8px;
+        font-size: medium;
+        border-radius: 50px;
+        cursor: pointer;
+        border: none;
+        &:disabled {
+          background-color: #834a4a;
+        }
+      }
+    }
+  }
+}
+.cashInPara {
+  color: #681d1d !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.font_20 {
+  font-size: 20px;
+}

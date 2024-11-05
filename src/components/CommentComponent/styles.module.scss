@@ -1,0 +1,21 @@
+.notifications .noti_title h2 {
+  font-size: 30px;
+  text-align: left;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.noti_forms {
+  padding-bottom: 30px;
+}
+button.btn.btn_add {
+  background: #681d1d;
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
