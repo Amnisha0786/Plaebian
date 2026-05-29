@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# 📱 Plaebian – Social Media Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Plaebian is a social media platform where users can share videos, interact with content, and build their online presence through likes, comments, shares, and followers. The platform also includes a **coin-based reward system** that rewards users based on their engagement, followers, and content reach.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Key Features
+- User video posting and content sharing  
+- Like, comment, and share functionality  
+- Follow / following system  
+- User profile with followers and engagement stats  
+- Coin-based reward system based on reach and popularity  
+- Social engagement-driven ranking system  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 👨‍💻 My Contribution
+- Developed both **frontend and backend**
+- Implemented core social media features (posts, likes, comments)
+- Built user interaction system (follow/unfollow, engagement tracking)
+- Worked on backend APIs and database logic for social features
+- Supported integration of coin-based reward system
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
+- Frontend: React.js  
+- Backend: Node.js / Express (update if needed)  
+- Database: Firebase / MongoDB (update if needed)  
+- Authentication: User login & session management  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🎯 Core Modules
+- User Authentication  
+- Video Posting System  
+- Social Interactions (likes, comments, shares)  
+- Follow System  
+- Coin Reward System  
+- User Profile & Feed  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📊 System Overview
+Plaebian uses engagement-based logic to increase user interaction. Users earn coins based on:
+- Number of followers  
+- Post reach and engagement  
+- Likes and interactions  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+These coins can be used as a reward mechanism within the platform.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📌 Highlights
+- Full-stack social media application  
+- Real-time user interactions  
+- Engagement-based reward system  
+- Scalable API-driven architecture  
+- End-to-end frontend & backend development  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📈 Future Improvements
+- Reels-style video feed optimization  
+- Chat / messaging system  
+- Recommendation algorithm (AI-based feed)   
+- Advanced analytics dashboard  
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
